@@ -1,4 +1,4 @@
-# AGLIT
+# AGLIT - Agentic Long-context Issue Tracker
 
 AGLIT is a repo-local issue tracker built for OpenCode. It stores issues and
 projects as Markdown in `.aglit/` and exposes a minimal CLI plus an OpenCode
