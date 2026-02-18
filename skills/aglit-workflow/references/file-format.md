@@ -36,8 +36,10 @@ priority: <priority>
 ## Body conventions
 
 - First heading must be `# <title>`.
-- Issue sections: `## Description`, `## Acceptance`, `## Constraints`, `## Plan`, `## Verification`.
-- Project sections: `## Description`, `## Scope`, `## Milestones`, `## Notes`.
+- Baseline issue sections: `## Description`, `## Acceptance`, `## Constraints`, `## Plan`, `## Verification`.
+- Baseline project sections: `## Description`, `## Scope`, `## Milestones`, `## Notes`.
+- Agents may add additional sections when useful, including but not limited to `## Design Intent (APOSD)`, `## Boundary Ownership`, `## Proposed Interfaces`, and `## State Invariants`; agents may add other section headings not listed here when they determine they are necessary.
+- Required and optional sections should be thorough and comprehensive while remaining concise, leaving no open questions for implementation, verification, or handoff.
 
 ## Editing constraints
 
